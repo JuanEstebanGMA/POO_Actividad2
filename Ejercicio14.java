@@ -34,7 +34,8 @@ public class Ejercicio14
             System.out.println("El salario de los empleados del depto. 1 es:  " + salario);
         }
         // Sentencia para el depto 1
-        if (ventasDep2 > porcentajeVentas) {
+        if (ventasDep2 > porcentajeVentas) 
+        {
             System.out.println("El salario de los empleados del depto. 2 es:  " + (salario + salarioAumento));
         }
         else
