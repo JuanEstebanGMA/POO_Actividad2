@@ -30,13 +30,15 @@ public class Ejercicio15
 
             System.out.println("La esfera diferente es A");
         }
-        else if ((pesoD == pesoC) && (pesoC == pesoA)) {
+        else if ((pesoD == pesoC) && (pesoC == pesoA)) 
+        {
             esferaDiferente = pesoB;
             esferaPesoIgual = pesoD;
 
             System.out.println("La esfera diferente es B");
         }
-        else if ((pesoD == pesoB) && (pesoB == pesoA)) {
+        else if ((pesoD == pesoB) && (pesoB == pesoA)) 
+        {
             esferaDiferente = pesoC;
             esferaPesoIgual = pesoD;
 
