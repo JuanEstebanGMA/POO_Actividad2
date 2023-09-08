@@ -22,7 +22,6 @@ public class Ejercicio23
 
         if (discriminante > 0)
         {
-
             x1 = (- b + Math.sqrt(discriminante))/ (2*a);
             x2 = (-b - Math.sqrt(discriminante))/ (2*a);
 
@@ -32,7 +31,6 @@ public class Ejercicio23
         }
         else if (discriminante == 0)
         {
-
             x1 = (-(b) + Math.sqrt(discriminante))/ (2*a);
 
             System.out.println("La ecuación tiene una única solución: ");
