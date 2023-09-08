@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
-public class Ejercicio15 {
-    public static void main(String[] args) {
+public class Ejercicio15
+    {
+    public static void main(String[] args) 
+    {
         double pesoA, pesoB, pesoC, pesoD;  // Declaración de las variables para los pesos.
 
         Scanner scanner = new Scanner(System.in);
@@ -21,7 +23,8 @@ public class Ejercicio15 {
         var esferaDiferente = 0.0;
         var esferaPesoIgual = 0.0;            // Variable temporal para la esfera con peso igual a las otras.
 
-        if ((pesoD == pesoB) && (pesoB == pesoC)){
+        if ((pesoD == pesoB) && (pesoB == pesoC))
+        {
             esferaDiferente = pesoA;
             esferaPesoIgual = pesoD;
 
@@ -39,18 +42,21 @@ public class Ejercicio15 {
 
             System.out.println("La esfera diferente es C");
         }
-        else {
+        else 
+        {
             esferaDiferente = pesoD;
             esferaPesoIgual = pesoA;
 
             System.out.println("La esfera diferente es D");
         }
 
-        if (esferaDiferente > esferaPesoIgual) {
+        if (esferaDiferente > esferaPesoIgual) 
+        {
 
             System.out.println("Y su peso es mayor que los otros.");
         }
-        else {
+        else 
+        {
             System.out.println("Y su peso es menor que los otros.");
         }
     }
